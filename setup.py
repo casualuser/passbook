@@ -16,17 +16,14 @@ setup(
     download_url='http://pypi.python.org/packages/source/P/Passbook/Passbook-%s.tar.gz' % version,
 
     install_requires=[
-        'cryptography==3.3.1',
+        'cryptography==43.0.3',
     ],
 
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Environment :: Other Environment',
         'Intended Audience :: Developers',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
-        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3 :: Only',
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
