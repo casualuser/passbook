@@ -16,7 +16,7 @@ setup(
     download_url='http://pypi.python.org/packages/source/P/Passbook/Passbook-%s.tar.gz' % version,
 
     install_requires=[
-        'cryptography==43.0.3',
+        'cryptography==42.0.8',
     ],
 
     classifiers=[
